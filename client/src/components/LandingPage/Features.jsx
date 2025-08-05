@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { features } from "../../lib/constants";
+import { features } from "@/lib/constants";
 
 const FeatureSection = () => {
   return (

@@ -1,9 +1,12 @@
-import { Button } from "../../ui/button";
+import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import HeroClients from "./HeroClients";
 import HeroStatics from "./HeroStatics";
 import { Badge } from "@/components/ui/badge";
+import docBg from "@/assets/docBg2.webp";
+import hayatCareSignature from "@/assets/hayatCareSign.webp";
+import textHighlighterLine from "@/assets/text-highlighter-line.webp";
 
 const Hero = () => {
   return (
@@ -53,7 +56,7 @@ const Hero = () => {
 
         <div>
           <img
-            src="../../../../src/assets/docBg2.webp"
+            src={docBg}
             className="lg:rounded-b-3xl w-full h-[420px] sm:h-[500px] md:h-[600px] lg:h-[710px] object-cover object-top"
             alt="Hero background"
           />
@@ -72,13 +75,13 @@ const Hero = () => {
       />
 
       <img
-        src="../../../../src/assets/hayatCareSign.webp"
+        src={hayatCareSignature}
         alt="hayatCare-signature"
         className="hidden lg:block absolute -bottom-24 right-28 h-96 w-96"
       />
 
       <img
-        src="../../../../src/assets/text-highlighter-line.webp"
+        src={textHighlighterLine}
         alt="text-highlighter-line-img"
         className="hidden lg:block absolute -bottom-14 right-20 h-60 w-60"
       />

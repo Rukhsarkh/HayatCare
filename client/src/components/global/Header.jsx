@@ -1,4 +1,3 @@
-import { Button } from "../ui/button";
 const Header = () => {
   return (
     <header className="z-50 fixed mx-1.5 p-4 px-10 flex flex-row justify-between w-full text-white">

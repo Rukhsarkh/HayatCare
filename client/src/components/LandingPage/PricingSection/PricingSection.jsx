@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { creditBenefits } from "../../../lib/constants";
+import { creditBenefits } from "@/lib/constants";
 import { Stethoscope } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import PricingTable from "./PricingTable";

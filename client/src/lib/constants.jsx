@@ -7,26 +7,31 @@ import {
   Video,
 } from "lucide-react";
 
+import img1 from "@/assets/heroClients/client1.webp";
+import img2 from "@/assets/heroClients/client2.webp";
+import img3 from "@/assets/heroClients/client3.webp";
+import img4 from "@/assets/heroClients/client4.webp";
+
 export const dummyClients = [
   {
     id: 1,
     imgTitle: "client1",
-    imgSrc: "../../src/assets/heroClients/client1.webp",
+    imgSrc: img1,
   },
   {
     id: 2,
     imgTitle: "client2",
-    imgSrc: "../../src/assets/heroClients/client2.webp",
+    imgSrc: img2,
   },
   {
     id: 3,
     imgTitle: "client3",
-    imgSrc: "../../src/assets/heroClients/client3.webp",
+    imgSrc: img3,
   },
   {
     id: 4,
     imgTitle: "client4",
-    imgSrc: "../../src/assets/heroClients/client4.webp",
+    imgSrc: img4,
   },
 ];
 

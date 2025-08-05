@@ -1,4 +1,4 @@
-import { dummyClients } from "../../../lib/constants";
+import { dummyClients } from "@/lib/constants.jsx";
 
 const HeroClients = () => {
   return (

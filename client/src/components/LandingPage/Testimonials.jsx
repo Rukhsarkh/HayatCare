@@ -1,6 +1,6 @@
-import { testimonials } from "../../lib/constants";
-import { Badge } from "../ui/badge";
-import { Card, CardContent } from "../ui/card";
+import { testimonials } from "@/lib/constants";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent } from "@/components/ui/card";
 
 const Testimonials = () => {
   return (

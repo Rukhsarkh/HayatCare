@@ -37,7 +37,7 @@ const Hero = () => {
               asChild
               size="lg"
               variant="outline"
-              className="bg-yellow-300 border-none"
+              className="bg-yellow-300 border-none hover:bg-yellow-200"
             >
               <Link to="/onboarding">
                 Get Started <ArrowRight className="ml-2 h-4 w-4" />
@@ -77,13 +77,13 @@ const Hero = () => {
       <img
         src={hayatCareSignature}
         alt="hayatCare-signature"
-        className="hidden lg:block absolute -bottom-24 right-28 h-96 w-96"
+        className="hidden lg:block absolute -bottom-24 right-28 h-96 w-96 pointer-events-none"
       />
 
       <img
         src={textHighlighterLine}
         alt="text-highlighter-line-img"
-        className="hidden lg:block absolute -bottom-14 right-20 h-60 w-60"
+        className="hidden lg:block absolute -bottom-14 right-20 h-60 w-60 pointer-events-none"
       />
     </section>
   );

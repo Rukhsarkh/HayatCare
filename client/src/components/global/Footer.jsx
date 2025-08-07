@@ -15,8 +15,8 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-black text-white px-6 md:px-16 py-10">
-      <div className="flex flex-col md:flex-row justify-between items-start md:items-center border-b border-gray-700 pb-10 gap-8">
+    <footer className="bg-black text-white px-6 py-10">
+      <div className="flex flex-col md:flex-row justify-between items-start md:items-center pb-10 gap-8">
         <div className="max-w-md">
           <h2 className="text-2xl font-bold mb-2">HayatCare.</h2>
           <p className="text-md text-gray-400">
@@ -89,6 +89,12 @@ const Footer = () => {
             </ul>
           </div>
         </div>
+      </div>
+
+      <div className="text-white w-full pt-8 lg:pt-5 flex items-center justify-center text-center">
+        <p className="text-center lg:text-xl max-lg:px-1">
+          Designed and built by Rukhsar khan 🌷
+        </p>
       </div>
     </footer>
   );
